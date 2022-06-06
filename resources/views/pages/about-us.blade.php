@@ -4,7 +4,7 @@
     <div class="container pt-17 pb-20 pt-md-19 pb-md-21 text-center">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h1 class="display-1 mb-3 text-white">@lang('texts.contact-us')</h1>
+          <h1 class="display-1 mb-3 text-white">@lang('texts.about-us')</h1>
 
           <!-- /nav -->
         </div>
@@ -179,5 +179,210 @@
   </section>
   <!-- /section -->
   <!-- /section -->
+  <section class="cd-horizontal-timeline container">
+    <div class="section-title">
+
+      <h2 class="text-center pb-5 fs-15 text-uppercase text-muted mb-3">@lang('texts.our-history-achievement')</h2>
+    </div>
+    <div class="timeline">
+      <div class="events-wrapper">
+        <div class="events">
+          <ol>
+            <li><a href="#0" data-date="01/01/2002" class="selected">2002</a></li>
+            <li><a href="#0" data-date="01/01/2003">2003</a></li>
+            <li><a href="#0" data-date="01/01/2004">2004</a></li>
+            <li><a href="#0" data-date="01/01/2005">2005</a></li>
+            <li><a href="#0" data-date="01/01/2006">2006</a></li>
+            <li><a href="#0" data-date="01/01/2007">2007</a></li>
+            <li><a href="#0" data-date="01/01/2008">2008</a></li>
+            <li><a href="#0" data-date="01/01/2009">2009</a></li>
+            <li><a href="#0" data-date="01/01/2010">2010</a></li>
+            <li><a href="#0" data-date="01/05/2010">2010</a></li>
+            <li><a href="#0" data-date="01/01/2011">2011</a></li>
+            <li><a href="#0" data-date="01/01/2012">2012</a></li>
+            <li><a href="#0" data-date="01/05/2012">2012</a></li>
+            <li><a href="#0" data-date="01/01/2013">2013</a></li>
+            <li><a href="#0" data-date="01/05/2013">2013</a></li>
+            <li><a href="#0" data-date="01/01/2014">2014</a></li>
+            <li><a href="#0" data-date="01/05/2014">2014</a></li>
+            <li><a href="#0" data-date="01/01/2015">2015</a></li>
+            <li><a href="#0" data-date="01/05/2015">2015</a></li>
+            <li><a href="#0" data-date="01/01/2016">2016</a></li>
+            <li><a href="#0" data-date="01/05/2016">2016</a></li>
+            <li><a href="#0" data-date="01/01/2017">2017</a></li>
+            <li><a href="#0" data-date="01/01/2018">2018</a></li>
+            <li><a href="#0" data-date="01/05/2018">2018</a></li>
+            <li><a href="#0" data-date="01/01/2019">2019</a></li>
+            <li><a href="#0" data-date="01/01/2020">2020</a></li>
+          </ol>
+
+          <span class="filling-line" aria-hidden="true"></span>
+        </div> <!-- .events -->
+      </div> <!-- .events-wrapper -->
+
+      <ul class="cd-timeline-navigation">
+        <li><a href="#0" class="prev1 inactive">Prev</a></li>
+        <li><a href="#0" class="next1">Next</a></li>
+      </ul> <!-- .cd-timeline-navigation -->
+    </div> <!-- .timeline -->
+
+    <div class="events-content">
+      <ol>
+
+        <li class="selected" data-date="01/01/2002">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2002</em>
+            <p>@lang('texts.2002h')</p>
+        </li>
+
+        <li data-date="01/01/2003">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2003</em>
+          <p>
+           @lang('texts.2003h')
+          </p>
+        </li>
+
+        <li data-date="01/01/2004">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2004 он</em>
+          <p>@lang('texts.2004h')</p>
+        </li>
+
+        <li data-date="01/01/2005">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2005</em>
+          <p>@lang('texts.2005h')	</p>
+        </li>
+
+        <li data-date="01/01/2006">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2006</em>
+          <p>
+           @lang('texts.2006h')</p>
+        </li>
+
+        <li data-date="01/01/2007">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2007</em>
+          <p>@lang('texts.2007h')</p>
+        </li>
+
+        <li data-date="01/01/2008">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2008</em>
+          <p>	@lang('texts.2008h') </p>
+        </li>
+        <li data-date="01/01/2009">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2009 </em>
+          <p>	@lang('texts.2009h') </p>
+        </li>
+        <li data-date="01/01/2010">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2010 </em>
+          <p>@lang('texts.2010h')	</p>
+        </li>
+        <li data-date="01/01/2011">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2011 </em>
+          <p>	@lang('texts.2011h')</p>
+        </li>
+        <li data-date="01/01/2012">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2012 </em>
+          <p>	@lang('texts.2012h')</p>
+        </li>
+        <li data-date="01/01/2013">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2013 </em>
+          <p>	@lang('texts.2013h') </p>
+        </li>
+        <li data-date="01/01/2014">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2014</em>
+          <p>@lang('texts.2014h')	</p>
+        </li>
+        <li data-date="01/01/2015">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2015</em>
+          <p>@lang('texts.2015h')	</p>
+        </li>
+        <li data-date="01/01/2016">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2016</em>
+          <p>@lang('texts.2016h')	</p>
+        </li>
+        <li data-date="01/01/2017">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2017</em>
+          <p>	@lang('texts.2017h')</p>
+        </li>
+        <li data-date="01/01/2018">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2018</em>
+          <p>	@lang('texts.2018h') </p>
+        </li>
+        <li data-date="01/01/2019">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2019</em>
+          <p>	@lang('texts.2019h') </p>
+        </li>
+        <li data-date="01/01/2020">
+            <h4>@lang('texts.our-history')</h4>
+          <em>2020</em>
+                        <p>@lang('texts.2020h')</p>
+        </li>
+        <li  data-date="01/05/2010">
+            <h4>@lang('texts.our-achievement')</h4>
+          <em>2010</em>
+          <p>@lang('texts.2010a')	</p>
+        </li>
+
+        <li data-date="01/05/2012">
+            <h4>@lang('texts.our-achievement')</h4>
+          <em>2012</em>
+          <p>	@lang('texts.2012a')</p>
+        </li>
+
+        <li data-date="01/05/2013">
+            <h4>@lang('texts.our-achievement')</h4>
+          <em>2013</em>
+          <p>@lang('texts.2013a')	</p>
+        </li>
+
+        <li data-date="01/05/2014">
+            <h4>@lang('texts.our-achievement')</h4>
+          <em>2014</em>
+          <p>
+            @lang('texts.2014a') </p>
+        </li>
+
+        <li data-date="01/05/2015">
+            <h4>@lang('texts.our-achievement')</h4>
+          <em>2015</em>
+          <p>	@lang('texts.2015a')
+           </p>
+        </li>
+
+        <li data-date="01/05/2016">
+            <h4>@lang('texts.our-achievement')</h4>
+          <em>2016 </em>
+          <p>	@lang('texts.2016a')
+          </p>
+        </li>
+
+        <li data-date="01/05/2018">
+            <h4>@lang('texts.our-achievement')</h4>
+          <em>2018</em>
+
+          <p>
+            @lang('texts.2018a') </p>
+        </li>
+
+
+      </ol>
+    </div> <!-- .events-content -->
+  </section>
 
 @stop

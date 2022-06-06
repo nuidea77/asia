@@ -86,142 +86,29 @@
   <!-- /.nav-tabs -->
 
   <div class="tab-content">
+
     <div class="tab-pane fade show active" id="all">
 
-              <div class="row row-cols-2 row-cols-md-3 row-cols-xl-6 gx-lg-6 gy-6 justify-content-center">
+    <div class="row row-cols-2 row-cols-md-3 row-cols-xl-6 gx-lg-6 gy-6 justify-content-center">
+                @if(isset($partners))
+                @foreach($partners as $data)
                 <div class="col">
-                  <div class="card shadow-lg h-100 align-items-center">
-                    <div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
-                      <figure class="px-md-3 mb-0"><img src="./assets/img/brands/z1.png" alt="" /></figure>
+                  <div class="card shadow-lg h-100 align-items-center lift">
+                    <div class="card-body align-items-center d-flex px-3  ">
+                      <figure class="px-md-3 mb-0 hover-scale"><img src="{{Voyager::image($data->logo)}}" alt="" /></figure>
                     </div>
                     <!--/.card-body -->
-                    <p>anme</p>
+                    <p> <a href="{{ $data->link }}">{{ $data->name }}</a> </p>
                   </div>
                   <!--/.card -->
                 </div>
-                <!--/column -->
-                <div class="col">
-                  <div class="card shadow-lg h-100 align-items-center">
-                    <div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
-                      <figure class="px-md-3 mb-0"><img src="./assets/img/brands/z2.png" alt="" /></figure>
-                    </div>
-                    <!--/.card-body -->
-                  </div>
-                  <!--/.card -->
-                </div>
-                <!--/column -->
-                <div class="col">
-                  <div class="card shadow-lg h-100 align-items-center">
-                    <div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
-                      <figure class="px-md-3 mb-0"><img src="./assets/img/brands/z3.png" alt="" /></figure>
-                    </div>
-                    <!--/.card-body -->
-                  </div>
-                  <!--/.card -->
-                </div>
-                <!--/column -->
-                <div class="col">
-                  <div class="card shadow-lg h-100 align-items-center">
-                    <div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
-                      <figure class="px-md-3 mb-0"><img src="./assets/img/brands/z4.png" alt="" /></figure>
-                    </div>
-                    <!--/.card-body -->
-                  </div>
-                  <!--/.card -->
-                </div>
-                <!--/column -->
-                <div class="col">
-                  <div class="card shadow-lg h-100 align-items-center">
-                    <div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
-                      <figure class="px-md-3 mb-0"><img src="./assets/img/brands/z5.png" alt="" /></figure>
-                    </div>
-                    <!--/.card-body -->
-                  </div>
-                  <!--/.card -->
-                </div>
-                <div class="col">
-                    <div class="card shadow-lg h-100 align-items-center">
-                      <div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
-                        <figure class="px-md-3 mb-0"><img src="./assets/img/brands/z4.png" alt="" /></figure>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!--/.card -->
-                  </div>
-                  <!--/column -->
-                  <div class="col">
-                    <div class="card shadow-lg h-100 align-items-center">
-                      <div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
-                        <figure class="px-md-3 mb-0"><img src="./assets/img/brands/z5.png" alt="" /></figure>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!--/.card -->
-                  </div>
-                  <div class="col">
-                    <div class="card shadow-lg h-100 align-items-center">
-                      <div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
-                        <figure class="px-md-3 mb-0"><img src="./assets/img/brands/z4.png" alt="" /></figure>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!--/.card -->
-                  </div>
-                  <!--/column -->
-                  <div class="col">
-                    <div class="card shadow-lg h-100 align-items-center">
-                      <div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
-                        <figure class="px-md-3 mb-0"><img src="./assets/img/brands/z5.png" alt="" /></figure>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!--/.card -->
-                  </div>
-                  <div class="col">
-                    <div class="card shadow-lg h-100 align-items-center">
-                      <div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
-                        <figure class="px-md-3 mb-0"><img src="./assets/img/brands/z4.png" alt="" /></figure>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!--/.card -->
-                  </div>
-                  <!--/column -->
-                  <div class="col">
-                    <div class="card shadow-lg h-100 align-items-center">
-                      <div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
-                        <figure class="px-md-3 mb-0"><img src="./assets/img/brands/z5.png" alt="" /></figure>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!--/.card -->
-                  </div>
-                  <div class="col">
-                    <div class="card shadow-lg h-100 align-items-center">
-                      <div class="card-body align-items-center d-flex px-3 py-6 p-md-8">
-                        <figure class="px-md-3 mb-0"><img src="./assets/img/brands/z4.png" alt="" /></figure>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!--/.card -->
-                  </div>
-                  <!--/column -->
-
-                <!--/column -->
-              </div>
-              <!--/.row -->
+                @endforeach
+                @endif
 
     </div>
-    <!--/.tab-pane -->
-    <div class="tab-pane fade" id="tab1-2">
-      ...
-    </div>
-    <!--/.tab-pane -->
-    <div class="tab-pane fade" id="tab1-3">
-      ...
-    </div>
-    <!--/.tab-pane -->
+
+
   </div>
-  <!-- /.tab-content -->
+
 </div>
   @stop

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Partner;
 class PagesController extends Controller
 {
     public function contact(){
@@ -13,6 +13,15 @@ class PagesController extends Controller
         return view('pages.about-us');
     }
     public function partners(){
-        return view('pages.partners');
+        $partners = Partner::orderBy('order', 'asc')
+        ->get();
+        return view('pages.partners')
+        ->with('partners', $partners);
+        }
+    public function hr(){
+        return view('pages.hr');
+    }
+    public function team(){
+        return view('pages.team');
     }
 }

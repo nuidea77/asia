@@ -131,7 +131,7 @@ The Government of Mongolia and the Mongolian National Chamber of Commerce and In
 “Honorary Member Organization” of the 20th anniversary of “Health Development Center”
 ',
     '2018a' => 'To be selected as the TOP-150 BUSINESS ENTITIES OF 2018, The Government of Mongolia, MNCCI, the Ministry of Finance, the General Department of Customs, the General Department of Taxation, the General Department of Social Insurance, and the Financial Regulatory Commission jointly issued based on key indicators such as total taxes paid to the state budget, sales, number of employees, and financial indicators. ',
-'management-team' => 'MANAGEMENT TEAM',
+'management-team' => 'Management team',
 
     'human-resource-policy' => 'HUMAN RESOURCE POLICY',
     'careers' => 'WE ARE HIRING',

@@ -32,10 +32,11 @@
           <ul class="navbar-nav">
 
 
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="">Бидний тухай</a>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="">@lang('texts.about-us')</a>
               <ul class="dropdown-menu">
-                <li class="nav-item"><a class="dropdown-item" href="">Группын танилцуулга</a></li>
-                <li class="nav-item"><a class="dropdown-item" href="">Удирдлагын баг</a></li>
+                <li class="nav-item"><a class="dropdown-item" href="/about">@lang('texts.corporation-intro')</a></li>
+                <li class="nav-item"><a class="dropdown-item" href="/teams">@lang('texts.management-team')</a></li>
+                <li class="nav-item"><a class="dropdown-item" href="/partners">@lang('texts.partners')</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="">@lang('texts.business-direction')</a>
@@ -47,7 +48,7 @@
                 </ul>
             </li>
 
-            <li class="nav-item"><a class="nav-link" href="#!">Хүний нөөц</a></li>
+            <li class="nav-item"><a class="nav-link" href="/hr">@lang('texts.human-resources')</a></li>
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/blog">@lang('texts.blog-information')</a>
                 <ul class="dropdown-menu">
                   <li class="nav-item"><a class="dropdown-item" href="/news/category/3">@lang('texts.information')</a></li>
