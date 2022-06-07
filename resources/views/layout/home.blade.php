@@ -25,7 +25,7 @@
     <div class="container py-7 py-md-8">
       <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
         <div class="col-lg-6 position-relative order-lg-2">
-            <figure class="rounded hover-scale"><img src="{{asset('assets/img/photos/about7.jpg')}}"  alt=""></figure>
+            <figure class="rounded hover-scale"><img src="{{asset('assets/img/8.webp')}}"  alt=""></figure>
         </div>
         <!--/column -->
         <div class="col-lg-6">
@@ -283,7 +283,7 @@
             <div class="col-md-10 offset-md-1 col-lg-6 offset-lg-6  text-center text-lg-start" data-cues="slideInDown" data-group="download" data-disabled="true">
               <h3 class="display-7 mb-4 px-md-10 px-lg-0" data-cue="slideInDown" data-group="download" data-show="true" style="animation-name: slideInDown; animation-duration: 700ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">@lang('texts.eapteka')</h3>
               <p class="lead  px-md-10 px-lg-0 pe-xxl-15" data-cue="slideInDown" data-group="download" data-show="true" style="animation-name: slideInDown; animation-duration: 700ms; animation-timing-function: ease; animation-delay: 300ms; animation-direction: normal; animation-fill-mode: both;">@lang('texts.eapteka-desc')</p>
-              <p class="py-0 fs-17" data-cue="slideInDown" data-group="download" data-show="true" style="animation-name: slideInDown; animation-duration: 700ms; animation-timing-function: ease; animation-delay: 300ms; animation-direction: normal; animation-fill-mode: both;">@lang('texts.eapteka-desc')</p>
+              <p class="py-0 fs-17" data-cue="slideInDown" data-group="download" data-show="true" style="animation-name: slideInDown; animation-duration: 700ms; animation-timing-function: ease; animation-delay: 300ms; animation-direction: normal; animation-fill-mode: both;">@lang('texts.eapteka-desc1')</p>
               <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="download" data-cue="slideInDown" data-disabled="true" data-show="true" style="animation-name: slideInDown; animation-duration: 700ms; animation-timing-function: ease; animation-delay: 600ms; animation-direction: normal; animation-fill-mode: both;">
                 <span data-cue="slideInDown" data-group="download" data-show="true" style="animation-name: slideInDown; animation-duration: 700ms; animation-timing-function: ease; animation-delay: 900ms; animation-direction: normal; animation-fill-mode: both;"><a href="https://apps.apple.com/mn/app/b2bapteka/id1483031108" class="btn  btn-red btn-icon btn-icon-start rounded me-2"><i class="uil uil-apple"></i> App Store</a></span>
                 <span data-cue="slideInDown" data-group="download" data-show="true" style="animation-name: slideInDown; animation-duration: 700ms; animation-timing-function: ease; animation-delay: 1200ms; animation-direction: normal; animation-fill-mode: both;"><a href="https://play.google.com/store/apps/details?id=mn.capps.eapteka.corp" class="btn btn-primary btn-icon btn-icon-start rounded"><i class="uil uil-google-play"></i> Google Play</a></span>
@@ -310,7 +310,7 @@
         </div>
         <!-- /column -->
         <div class="col-lg-8">
-          <div class="row row-cols-2 row-cols-md-4 gx-0 gx-md-8 gx-xl-12 gy-12">
+          <div class="row row-cols-2 row-cols-md-4 gx-0 gx-md-8  gy-12">
               @if(isset($partners))
               @foreach($partners as $data)
 

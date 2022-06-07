@@ -53,7 +53,7 @@ return [
     'channels' => [
         'stack' => [
             'driver' => 'stack',
-            'channels' => ['single'],
+            'channels' => ['single' ,'stdout'],
             'ignore_exceptions' => false,
         ],
 
@@ -98,6 +98,14 @@ return [
                 'stream' => 'php://stderr',
             ],
         ],
+
+        'stdout' => [
+            'driiver' => 'monolog',
+            'handler' => StreamHandler::class,
+            'with' => [
+                'stream' => 'php://stdout'
+            ]
+            ],
 
         'syslog' => [
             'driver' => 'syslog',

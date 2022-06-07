@@ -34,8 +34,11 @@ Route::get('/news/{id}', [NewsController::class, 'view']);
 Route::get('/blog', [NewsController::class, 'index']);
 Route::get('/news/category/{id}', [NewsController::class, 'category']);
 Route::get('/contact', [PagesController::class, 'contact']);
-Route::get('/partners', [PagesController::class, 'partners']);
+Route::get('/partners', [PagesController::class, 'partners'])->name('partners');
 Route::get('/about', [PagesController::class, 'about']);
+Route::get('/teams', [PagesController::class, 'team']);
+Route::get('/jobs/{id}', [PagesController::class, 'jobs']);
+Route::get('/hr', [PagesController::class, 'hr']);
 Route::get('/company/{id}', [CompanyController::class, 'view']);
 
 Route::group(['prefix' => 'admin'], function () {

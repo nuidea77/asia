@@ -131,7 +131,7 @@ The Government of Mongolia and the Mongolian National Chamber of Commerce and In
 “Honorary Member Organization” of the 20th anniversary of “Health Development Center”
 ',
     '2018a' => 'To be selected as the TOP-150 BUSINESS ENTITIES OF 2018, The Government of Mongolia, MNCCI, the Ministry of Finance, the General Department of Customs, the General Department of Taxation, the General Department of Social Insurance, and the Financial Regulatory Commission jointly issued based on key indicators such as total taxes paid to the state budget, sales, number of employees, and financial indicators. ',
-'management-team' => 'MANAGEMENT TEAM',
+'management-team' => 'Management team',
 
     'human-resource-policy' => 'HUMAN RESOURCE POLICY',
     'careers' => 'WE ARE HIRING',
@@ -248,6 +248,7 @@ We were established in 2017 as the Pharmacy Chain of Asia Pharma LLC, and in Jan
     'apteka-desc' => 'Dear customers, you can order the medicine you want online 24 hours a day and have it delivered to your desired location.',
     'eapteka' => 'ONLINE ORDERING SYSTEM FOR CLIENTS',
     'eapteka-desc' => 'Dear clients, you can place an order 24 hours a day using the e.Apteka.mn website and the b2bapteka application.',
+    'eapteka-desc1' => 'If you are a new customer, you can call 7007-3311 and sign an agreement to use the online ordering system.',
     'developed' => 'Developed:',
     'llc' => 'Asia-Pharma LLC',
     'partnertype1' => 'All',
@@ -266,5 +267,12 @@ We were established in 2017 as the Pharmacy Chain of Asia Pharma LLC, and in Jan
     'partnertype14' => 'Abuse and Psychotropic Medication',
     'partnertype15' => 'Contrast media',
     'partnertype16' => 'Parenteral nutrition',
+    'chairman' => 'Chairman of the board of directors',
+    'executive' => 'Executive director',
+    'directors' => 'Directors of subsidiaries',
+    'apply' => 'Apply now',
+    'gui' => 'Main role',
+    'req' => 'Job requirements',
+    'ainfo' => 'Additional information',
 
 ];
