@@ -26,10 +26,10 @@ Route::get('setlocale/{locale}',function($lang){
 
 Route::group(['middleware'=>'language'],function ()
 {
-    Route::get('/', function () {
-        return view('soon');
-    });
-Route::get('/home', [MainController::class, 'index']);
+    // Route::get('/', function () {
+    //     return view('soon');
+    // });
+Route::get('/', [MainController::class, 'index']);
 Route::get('/news/{id}', [NewsController::class, 'view']);
 Route::get('/blog', [NewsController::class, 'index']);
 Route::get('/news/category/{id}', [NewsController::class, 'category']);
