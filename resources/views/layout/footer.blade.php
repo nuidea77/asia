@@ -40,10 +40,10 @@
             <div class="widget ">
               <h4 class="widget-title text-white mb-3">@lang('texts.links')</h4>
               <ul class="list-unstyled  mb-0">
-                <li><a href="/about">@lang('texts.about-us')</a></li>
-                <li><a href="/hr">@lang('texts.human-resources')</a></li>
-                <li><a href="/blog">@lang('texts.information')</a></li>
-                <li><a href="/contact">@lang('texts.contact-us')</a></li>
+                <li><a href="/hr">@lang('texts.apply')</a></li>
+                <li><a href="/partners">@lang('texts.partners')</a></li>
+                <li><a href="/teams">@lang('texts.management-team')</a></li>
+                {{-- <li><a href="/contact">@lang('texts.contact-us')</a></li> --}}
               </ul>
             </div>
             <!-- /.widget -->
