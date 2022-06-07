@@ -1,10 +1,10 @@
 @extends('layout.main')
 @section('content')
-<section class="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white" data-image-src="{{asset('assets/img/photos/bg3.jpg')}}">
+<section class="wrapper image-wrapper bg-image bg-full bg-overlay bg-overlay-400 text-white" data-image-src="{{asset('assets/img/9.webp')}}">
     <div class="container pt-17 pb-20 pt-md-19 pb-md-21 text-center">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h1 class="display-1 mb-3 text-white">@lang('texts.about-us')</h1>
+          <h1 class="display-1 mb-3 text-white">@lang('texts.corporation-intro')</h1>
 
           <!-- /nav -->
         </div>
@@ -18,7 +18,7 @@
     <div class="container py-7 py-md-8">
       <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
         <div class="col-lg-6 position-relative order-lg-2">
-            <figure class="rounded hover-scale"><img src="{{asset('assets/img/photos/about7.jpg')}}"  alt=""></figure>
+            <figure class="rounded hover-scale"><img src="{{asset('assets/img/8.webp')}}"  alt=""></figure>
         </div>
         <!--/column -->
         <div class="col-lg-6">

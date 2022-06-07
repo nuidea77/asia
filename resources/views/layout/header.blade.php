@@ -54,7 +54,7 @@
                   <li class="nav-item"><a class="dropdown-item" href="/news/category/3">@lang('texts.information')</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="/news/category/4">@lang('texts.blog-suggestions')</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="/news/category/5">@lang('texts.social-responsibility')</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="">@lang('texts.quality-medicine')</a></li>
+                  {{-- <li class="nav-item"><a class="dropdown-item" href="">@lang('texts.quality-medicine')</a></li> --}}
                 </ul>
             </li>
             <li class="nav-item"><a class="nav-link" href="/contact">@lang('texts.contact-us')</a></li>

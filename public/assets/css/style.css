@@ -742,7 +742,6 @@ progress {
 }
 
 .row {
-  --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -5817,7 +5816,6 @@ textarea.form-control.is-invalid {
   .card-body2 {
     flex: 1 1 auto;
     padding: 2rem 2rem;
-    height: fit-content;
   }
 
 .card-title {
@@ -6275,7 +6273,7 @@ textarea.form-control.is-invalid {
     flex-direction: row;
   }
   .card-body2{
-    height: fit-content;
+    height: 300px;
 }
   .list-group-horizontal-xl>.list-group-item:first-child {
     border-bottom-left-radius: 0.25rem;
