@@ -36,7 +36,7 @@
                     </div>
                     <div class="align-self-start justify-content-start">
                       <h5 class="mb-1">@lang('texts.address')</h5>
-                      <address>Moonshine St. 14/05 Light City, <br class="d-none d-md-block" />London, United Kingdom</address>
+                      <address>@lang('texts.address-info')</address>
                     </div>
                   </div>
                   <!--/div -->

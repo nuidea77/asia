@@ -16,7 +16,7 @@
           </div>
           <!--/.row -->
           <div class="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-0">
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-12 col-lg-3">
               <div class="position-relative">
                 <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
                 <div class="card">
@@ -32,7 +32,7 @@
               <!-- /div -->
             </div>
             <!--/column -->
-            <div class="col-md-6 col-lg-9">
+            <div class="col-md-12 col-lg-9">
               <div class="position-relative">
                 <p class="mb-0"> {!! $company->getTranslatedAttribute('description') !!}</p>
                 <!-- /.card -->
@@ -48,12 +48,12 @@
       <!-- /section -->
       <section class="wrapper bg-light">
         <div class="container py-4 py-md-4">
-          <div class="row">
+          <div class="row gx-10">
             <div class="col-xl-12 col-xxl-12 mx-auto">
               <div class="row align-items-center justify-content-center counter-wrapper gy-6">
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-12 col-lg-4">
                     <div class="card shadow-lg">
-                        <div class="card-body">
+                        <div class="card-body-3">
                           <div class="d-flex flex-row align-items-center">
                             <div>
                               <div class="icon btn btn-circle btn-lg btn-soft-leaf disabled mx-auto me-4 mb-lg-3 mb-xl-0"> <i class="uil uil-location-pin-alt"></i> </div>
@@ -69,9 +69,9 @@
                   <!--/.card -->
                 </div>
                 <!--/column -->
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-12 col-lg-4">
                   <div class="card shadow-lg">
-                    <div class="card-body">
+                    <div class="card-body-3">
                       <div class="d-flex flex-row align-items-center">
                         <div>
                           <div class="icon btn btn-circle btn-lg btn-soft-leaf disabled mx-auto me-4 mb-lg-3 mb-xl-0">  <i class="uil uil-phone-volume"></i> </div>
@@ -87,9 +87,9 @@
                   <!--/.card -->
                 </div>
                 <!--/column -->
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-12 col-lg-4">
                     <div class="card shadow-lg">
-                        <div class="card-body">
+                        <div class="card-body-3">
                           <div class="d-flex flex-row align-items-center">
                             <div>
                               <div class="icon btn btn-circle btn-lg btn-soft-leaf disabled mx-auto me-4 mb-lg-3 mb-xl-0"> <i class="uil uil-envelope"></i> </div>

@@ -49,19 +49,16 @@
           <p class="mb-0"> @lang('texts.job-interview-info')</p>
         </div>
         <!--/column -->
-        <div class="col-md-6 col-lg-2"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">03</span></span>
+        <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">03</span></span>
           <h4 class="mb-1">@lang('texts.proficiency-test')</h4>
           <p class="mb-0">@lang('texts.proficiency-test-info').</p>
         </div>
         <!--/column -->
-        <div class="col-md-6 col-lg-2"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">04</span></span>
+        <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">04</span></span>
           <h4 class="mb-1">@lang('texts.decisive-interview')</h4>
           <p class="mb-0">@lang('texts.decisive-interview-info')</p>
         </div>
-        <div class="col-md-6 col-lg-2"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">05</span></span>
-            <h4 class="mb-1">@lang('texts.job-offer')</h4>
-            <p class="mb-0">@lang('texts.job-offer-info')</p>
-          </div>
+
         <!--/column -->
       </div>
       <!--/.row -->

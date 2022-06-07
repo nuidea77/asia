@@ -45214,5 +45214,10 @@ height: auto;
 /*
 neww */
 
-
+.card-body-3{
+    height: 170px;
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    display: flex;
+}
 
