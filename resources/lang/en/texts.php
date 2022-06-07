@@ -163,7 +163,7 @@ The Government of Mongolia and the Mongolian National Chamber of Commerce and In
     'email' => 'E-mail',
     'fax' => 'Fax',
     'phone1' => 'Phone',
-    'address1-info' => 'Grand Plaza Complex #1107, </br> 2nd khoroo, Bayangol district, Ulaanbaatar 16051',
+    'address-info' => 'Bayangol district, Khoroo 2, Peace avenue, Asia tower',
     'office-phone' => 'Office phone :',
     'pharmacy-phone' => 'Pharmacy phone :',
     'helpline' => 'Helpline :',

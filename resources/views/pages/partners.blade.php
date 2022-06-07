@@ -110,13 +110,13 @@
 
     <div class="tab-pane fade show active" id="all">
 
-    <div class="row row-cols-2 row-cols-md-3 row-cols-xl-6 gx-lg-6 gy-6 justify-content-center">
+    <div class="row row-cols-2 row-cols-md-3 row-cols-xl-6 gx-6 gy-6 justify-content-center">
                 @if(isset($partners))
                 @foreach($partners as $data)
                 <div class="col">
                   <div class="card shadow-lg h-100 align-items-center lift">
-                    <div class="card-body align-items-center d-flex px-3  ">
-                      <figure class="px-md-3 mb-0 hover-scale"><img src="{{Voyager::image($data->logo)}}" alt="" /></figure>
+                    <div class="card-body align-items-center d-flex px-3">
+                      <figure class=" mb-0 hover-scale"><img src="{{Voyager::image($data->logo)}}" alt="" /></figure>
                     </div>
                     <!--/.card-body -->
                     <p> <a href="{{ $data->link }}">{{ $data->name }}</a> </p>

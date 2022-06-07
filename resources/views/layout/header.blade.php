@@ -3,7 +3,7 @@
       <div class="container  d-md-flex flex-md-row">
         <div class="d-flex flex-row align-items-center">
           <div class="icon text-white fs-20 mt-1 me-2"> <i class="uil uil-location-pin-alt"></i></div>
-          <address class="mb-0 fs-15">БГД 4-р хороо Ази Товер</address>
+          <address class="mb-0 fs-15">@lang('texts.address-info')</address>
         </div>
         <div class="d-flex flex-row align-items-center me-6  ms-auto float-right">
             <div class="icon text-white fs-20 mt-1 me-2"> <i class="uil uil-message"></i></div>

@@ -15,7 +15,7 @@
     <!-- /.container -->
   </section>
   <section class="wrapper bg-light">
-    <div class="container py-14 py-md-16">
+    <div class="container py-6">
       <div class="row mb-3">
         <div class="col-md-12 col-lg-12 col-xl-10 col-xxl-12 mx-auto ">
             <h2 class=" fs-15 display-6 mb-3">@lang('texts.chairman')</h2>
@@ -50,7 +50,7 @@
     <!-- /.container -->
   </section>
   <section class="wrapper bg-light">
-    <div class="container py-14 py-md-16">
+    <div class="container py-6">
       <div class="row mb-3">
         <div class="col-md-12 col-lg-12 col-xl-10 col-xxl-12 mx-auto ">
             <h2 class=" fs-15 display-6 mb-3">@lang('texts.executive')</h2>
@@ -85,7 +85,7 @@
     <!-- /.container -->
   </section>
   <section class="wrapper bg-light">
-    <div class="container py-14 py-md-16">
+    <div class="container py-6">
       <div class="row mb-3">
         <div class="col-md-12 col-lg-12 col-xl-10 col-xxl-12 mx-auto ">
             <h2 class="display-6 fs-15 mb-3">@lang('texts.directors')</h2>
