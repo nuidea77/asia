@@ -163,7 +163,7 @@ The Government of Mongolia and the Mongolian National Chamber of Commerce and In
     'email' => 'E-mail',
     'fax' => 'Fax',
     'phone1' => 'Phone',
-    'address-info' => 'Bayangol district, Khoroo 2, Peace avenue, Asia tower',
+    'address-info' => 'Bayangol district, Khoroo 4, Peace avenue, Asia tower',
     'office-phone' => 'Office phone :',
     'pharmacy-phone' => 'Pharmacy phone :',
     'helpline' => 'Helpline :',
