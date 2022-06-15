@@ -8,3 +8,4 @@ yarn-error.log
 /.vscode
 /storage
 /public/storage
+/resources/views/layout/main.blade.php
