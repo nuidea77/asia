@@ -32,8 +32,8 @@
             <div class="card">
               <figure class="card-img-top"><img class="img-fluid" src="{{Voyager::image($data->image)}}"  alt="" /></figure>
               <div class="card-body px-6 py-5">
-                <h4 class="mb-1">{{$data->name}}</h4>
-                <p class="mb-0">{{$data->position}}</p>
+                <h4 class="mb-1">{{$data-> getTranslatedAttribute('name')}}</h4>
+                <p class="mb-0">{{$data->getTranslatedAttribute('position')}}</p>
               </div>
               <!--/.card-body -->
             </div>
@@ -67,8 +67,8 @@
             <div class="card">
               <figure class="card-img-top"><img class="img-fluid" src="{{Voyager::image($data->image)}}"  alt="" /></figure>
               <div class="card-body px-6 py-5">
-                <h4 class="mb-1">{{$data->name}}</h4>
-                <p class="mb-0">{{$data->position}}</p>
+                <h4 class="mb-1">{{$data-> getTranslatedAttribute('name')}}</h4>
+                <p class="mb-0">{{$data->getTranslatedAttribute('position')}}</p>
               </div>
               <!--/.card-body -->
             </div>
@@ -102,8 +102,8 @@
             <div class="card">
               <figure class="card-img-top"><img class="img-fluid" src="{{Voyager::image($data->image)}}"  alt="" /></figure>
               <div class="card-body px-6 py-5">
-                <h4 class="mb-1">{{$data->name}}</h4>
-                <p class="mb-0">{{$data->position}}</p>
+                <h4 class="mb-1">{{$data-> getTranslatedAttribute('name')}}</h4>
+                <p class="mb-0">{{$data->getTranslatedAttribute('position')}}</p>
               </div>
               <!--/.card-body -->
             </div>
