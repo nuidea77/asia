@@ -46,7 +46,7 @@
                     </div>
                     <div>
                       <h5 class="mb-1">@lang('texts.phone')</h5>
-                      <p> <a href="Tel:+97618001801" class="link-body">+976 1800 1801</a> <br class="d-none d-md-block" /> <a href="Tel:+97670076616" class="link-body">+976 70076616</a></p>
+                      <p> <a href="Tel:+97618001801" class="link-body">+976 1800 1801</a> <br class="d-none d-md-block" /> <a href="Tel:+97675756666" class="link-body">+976 75756666</a></p>
                     </div>
                   </div>
                   <!--/div -->

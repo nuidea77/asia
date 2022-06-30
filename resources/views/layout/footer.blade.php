@@ -19,7 +19,7 @@
             <div class="widget ">
               <h4 class="widget-title text-white mb-3">@lang('texts.contact-us')</h4>
               <address class="pe-xl-15 pe-xxl-17">@lang('texts.address-info')</address>
-              <a href="mailto:info@asiapharma.mn">info@asiapharma.mn</a><br /> +976 1800 1801
+              <a href="mailto:info@asiapharma.mn">info@asiapharma.mn</a><br /> +976 7575-6666
             </div>
             <!-- /.widget -->
           </div>
