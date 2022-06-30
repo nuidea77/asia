@@ -26,9 +26,32 @@
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.1/bootstrap3-typeahead.min.js">
+  </script>
   <script src="{{asset('assets/js/plugins.js')}}"></script>
   <script src="{{asset('assets/js/theme.js')}}"></script>
   <script src="{{asset('assets/js/app.js')}}"></script>
+  <script type="text/javascript">
+    var route = "{{ url('autocomplete-search') }}";
+    // var search = document.getElementById('search');
+    $('#pill_search').typeahead({
+        source: function (query, process) {
+            return $.get(route, {
+                query: query
+            }, function (data) {
+                console.log(data);
+                // return process(data.map((d, i) => ({id: i, name: d})));
+                return process(data.map((d, i) => ({id: i, name: d.Product, code: d.Code})));
+            });
+        },
+        updater: function(item) {
+            console.log(item.name);
+
+            
+            return item;
+        }
+    });
+</script>
 </body>
 
 </html>

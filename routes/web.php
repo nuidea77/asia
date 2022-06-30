@@ -7,7 +7,7 @@ use App\Http\Controllers\PagesController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\CompanyController;
-
+use App\Http\Controllers\PillController;
 
 /*
 |--------------------------------------------------------------------------
@@ -45,3 +45,7 @@ Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 });
+
+Route::get('/pills', [PillController::class, 'index']);
+Route::post('/pills', [PillController::class, 'postPill'])->name('login.submit');
+Route::get('/autocomplete-search', [PillController::class, 'getName']);

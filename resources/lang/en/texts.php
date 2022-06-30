@@ -274,5 +274,9 @@ We were established in 2017 as the Pharmacy Chain of Asia Pharma LLC, and in Jan
     'gui' => 'Main role',
     'req' => 'Job requirements',
     'ainfo' => 'Additional information',
+    'ner' => 'Name',
+    'hend' => 'Where',
+    'sanal' => 'Message',
+    'send' => 'Send',
 
 ];
