@@ -60,7 +60,7 @@
           <div class="col-md-6 col-xl-4 ">
             <div class="card shadow-lg lift">
               <div class="card-body1 hover-scale">
-                <img src="{{asset('assets/img/goal.png')}}" class="svg-inject icon-svg icon-svg-md hover-scale text-yellow mb-3" alt="" />
+                <img src="{{asset('assets/img/zorilgo.svg')}}" class="svg-inject icon-svg icon-svg-md hover-scale text-yellow mb-3" alt="" />
                 <h4>@lang('texts.mission')</h4>
                 <p class="mb-2">@lang('texts.mission1')</p>
               </div>
@@ -72,7 +72,7 @@
           <div class="col-md-6 col-xl-4 ">
             <div class="card shadow-lg lift">
               <div class="card-body1 hover-scale">
-                <img src="{{asset('assets/img/dart.png')}}" class="svg-inject icon-svg hover-scale icon-svg-md text-red mb-3" alt="" />
+                <img src="{{asset('assets/img/zorilt.svg')}}" class="svg-inject icon-svg hover-scale icon-svg-md text-red mb-3" alt="" />
                 <h4>@lang('texts.priority')</h4>
                 <p class="mb-2">@lang('texts.priority1')</p>
               </div>
@@ -84,7 +84,7 @@
           <div class="col-md-12 col-xl-4 ">
             <div class="card shadow-lg lift">
               <div class="card-body1 hover-scale">
-                <img src="{{asset('assets/img/vision.png')}}" class="svg-inject hover-scale icon-svg icon-svg-md text-green mb-3" alt="" />
+                <img src="{{asset('assets/img/haraa.svg')}}" class="svg-inject hover-scale icon-svg icon-svg-md text-green mb-3" alt="" />
                 <h4>@lang('texts.vision')</h4>
                 <p class="mb-2">@lang('texts.vision1')</p>
               </div>
